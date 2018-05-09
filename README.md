@@ -1,5 +1,5 @@
-#Installation
-##Bash Integration
+# Installation
+## Bash Integration
 add to .bash_profile:
 
 function openha() {
