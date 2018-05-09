@@ -1,1 +1,26 @@
-# openha_prog2 git initgit add README.mdgit commit -m first commitgit remote add origin https://github.com/Codelessandro/openha_prog2.gitgit push -u origin master
+# Bash-Integration
+add to .bash_profile:
+
+function openha() {
+   python path/to/openha.py $1 $2 $3
+}
+
+
+#Usage
+first argument: index of homework
+second argument: prename
+thirg argument: lastname
+
+
+#Settings
+adjust  self.mainpath  and self.zippath
+
+>In zippath are the folders SoSe18 Prog2 WINF-HA01, SoSe18 Prog2 WINF-HA02,... that contain the zips. Please remove the token *** (whatsorever) behind SoSe18 Prog2 WINF-HA01***
+>In mainpath we extract the zips and open
+
+
+#Note
+You have to make sure you can run idea from the command line (Tools > Create Command-line launcher)
+
+
+
